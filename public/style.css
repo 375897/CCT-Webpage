@@ -1,0 +1,28 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+  .topbutton{
+  background-color: grey;
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+ font-size:15px;
+  font-family: ariel;
+  border-radius: 8px;
+  }
+ 
+div{
+  padding: 0px 4px;
+}
+img{
+  border-style:solid
+}
