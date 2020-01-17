@@ -13,19 +13,19 @@ app.use(express.static("public"));
 
 // http://expressjs.com/en/starter/basic-routing.html
 app.get("/", function(request, response) {
-  response.sendFile(__dirname + "/views/index.html");
+  response.sendFile(__dirname + "/views/Main.html");
 });
 // http://expressjs.com/en/starter/basic-routing.html
-app.get("/Main", function(request, response) {
-  response.sendFile(__dirname + "/views/Main.html");
+app.get("/Bio", function(request, response) {
+  response.sendFile(__dirname + "/views/Bio.html");
 });
 // http://expressjs.com/en/starter/basic-routing.html
 app.get("/Morse", function(request, response) {
-  response.sendFile(__dirname + "/views/Main.html");
+  response.sendFile(__dirname + "/views/Morse.html");
 });
 // http://expressjs.com/en/starter/basic-routing.html
 app.get("/Vidcode", function(request, response) {
-  response.sendFile(__dirname + "/views/Main.html");
+  response.sendFile(__dirname + "/views/Vidcode.html");
 });
 
 
