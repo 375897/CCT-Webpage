@@ -10,12 +10,6 @@ h1 {
   color: #f42069;
 }
 
-
-.buttonBio{
-    display: flex; 
-  justify-content: center;
-}
-
 .button{
   background-color: #669900;
  border-style: solid;
@@ -32,7 +26,6 @@ h1 {
   background-color: green;
   transition-duration: 300ms;  
    border-style: solid;
-
   padding: 20px 48px;
   text-decoration: none;
   display: inline-block;
@@ -60,6 +53,6 @@ h1 {
   border-radius: 8px;
   }
  
-div{
+.vspacer{
   padding: 0px 4px;
 }

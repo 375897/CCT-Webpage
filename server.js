@@ -29,7 +29,7 @@ app.get("/Vidcode", function(request, response) {
 });
 // http://expressjs.com/en/starter/basic-routing.html
 app.get("/Alt", function(request, response) {
-  response.sendFile(__dirname + "/views/Alterate.html");
+  response.sendFile(__dirname + "/views/Alt.html");
 });
 
 // listen for requests :)

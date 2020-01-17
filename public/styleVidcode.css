@@ -32,13 +32,10 @@ h1 {
   border-radius: 8px;
   }
  
-
-
-.vidimg .vidframe{
-  width: 250px;
-  height: 125px;
-
+.vspacer{
+  padding: 0px 4px;
 }
+
 .frameSize{
   width:33.33333vw;
   height:33.3333vh;
