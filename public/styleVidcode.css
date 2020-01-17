@@ -34,8 +34,24 @@ h1 {
  
 
 
-img{
+.vidimg .vidframe{
   width: 250px;
   height: 125px;
 
 }
+.frameSize{
+  width:33.33333vw;
+  height:33.3333vh;
+}
+
+
+.left{
+    text-align: left;
+  font-size: 20px;
+  font-family: "Lucida Grande";
+}
+.right{
+  text-align: right;
+font-size:20px;
+   font-family: "Lucida Grande"; 
+  }
