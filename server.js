@@ -27,7 +27,10 @@ app.get("/Morse", function(request, response) {
 app.get("/Vidcode", function(request, response) {
   response.sendFile(__dirname + "/views/Vidcode.html");
 });
-
+// http://expressjs.com/en/starter/basic-routing.html
+app.get("/Alt", function(request, response) {
+  response.sendFile(__dirname + "/views/Alt.html");
+});
 
 // listen for requests :)
 const listener = app.listen(process.env.PORT, function() {

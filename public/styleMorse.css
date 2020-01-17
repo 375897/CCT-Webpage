@@ -1,0 +1,137 @@
+/* CSS files add styling rules to your content */
+
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: sans-serif;
+  
+}
+
+h1 {
+  font-style: italic;
+  color: #f42069;
+}
+
+.button{
+  background-color: #669900;
+ border-style: solid;
+  border-width: 5px;
+  padding: 20px 48px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  font-family: impact;
+  border-radius: 8px;
+  border-color: grey;
+}
+.button:hover{
+  background-color: green;
+  transition-duration: 300ms;  
+   border-style: solid;
+  padding: 20px 48px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  font-family: impact;
+}
+  .topbutton{
+  background-color: grey;
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+ font-size:15px;
+  font-family: ariel;
+  border-radius: 8px;
+  }
+  .topbutton:hover{
+  transition-duration: 300ms;  
+  background-color:darkgray;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+ font-size:15px;
+  font-family: ariel;
+  border-radius: 8px;
+  }
+/*User in various places to add gaps*/
+.spacer {
+  margin: 10px 0px;
+}
+.vspacer {
+  margin: 0px 4px;
+}
+/*Green button*/
+.buttonSize {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  padding: 15px 24px;
+  display: flex;
+  font-size: 16px;
+  border-style: solid;
+  border-color: green;
+  box-shadow: 2px 2px green;
+  width: 33%;
+  max-width:150px;
+  justify-content: center;
+  
+}
+.buttonSize:hover {
+  background-color: lightgreen; /* Green */
+}
+
+.containerflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerL {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: left;
+  
+}
+/*Top Box*/
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  background-color: lightgrey;
+  padding: 2px 10px;
+  border-style: solid;
+  border-color: grey;
+  box-shadow: 2px 2px grey;
+  max-width: 250px;
+}
+
+/*Input*/
+#inputText {
+  width: 50%;
+  border-style: solid;
+  border-color: grey;
+  box-shadow: 2px 2px grey;
+  font-size: 15px;
+  padding: 10px 10px;
+  text-align: left;
+}
+
+#input {
+  width: 40%;
+  min-height: 20px;
+
+  border-style: solid;
+  border-color: grey;
+  box-shadow: 2px 2px grey;
+  text-align: left;
+}
+#output {
+  width: 30%;
+  min-height: 20px;
+  border-style: solid;
+  border-color: grey;
+  box-shadow: 2px 2px grey;
+  text-align: left;
+}

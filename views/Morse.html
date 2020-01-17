@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    -->
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/styleMorse.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/Morse.js" defer></script>
+  </head>
+
+  <body>
+        <nav class="navbar navbar-expand-sm bg-dark">
+      <div class = "vspacer">
+        <button
+          type="button"
+          class="topbutton"
+          onclick="window.location.href = '/';"
+        >
+          Home
+        </button>
+      </div>
+      <div class = "vspacer">
+        <button
+          type="button"
+          class="topbutton"
+          onclick="window.location.href = '/Bio';"
+        >
+          Biography
+        </button>
+      </div>
+      <div class = "vspacer">
+        <button
+          type="button"
+          class="topbutton"
+          onclick="window.location.href = '/Vidcode';"
+        >
+          Vidcode
+        </button>
+      </div>
+      <div class = "vspacer">
+        <button
+          type="button"
+          class="topbutton"
+          onclick="window.location.href = '/Alt';"
+        >
+          Other Projects
+        </button>
+      </div>
+      <div class = "vspacer">
+        <button
+          type="button"
+          class="topbutton"
+          onclick="window.location.href = '/Morse';"
+        >
+          Morsecode
+        </button>
+      </div>
+    </nav>
+    
+    <div class="jumbotron text-center"> 
+      <h1> Morse Code Translator </h1>
+      </div>
+
+    
+    
+    
+    <!-- Info Text -->
+    <div class = "spacer infoContainer">
+    <p>~~Instructions~~</p>
+    <p>start each letter with '%'</p>
+    <p>write official morse code symbols</p>
+    <p>end each letter with '$'</p>                          
+    </div>
+    
+
+
+    <!-- Buttons to add characters -->
+    <div class="spacer containerflex">
+      <button class="buttonSize" onclick="startWrite()">Start (%)</button>
+      <button class="buttonSize" onclick="spaceWrite()">Space ($%)</button>
+      <button class="buttonSize" onclick="endWrite()">End ($)</button>
+      <button class="buttonSize" onclick="dotWrite()">dot (.)</button>
+      <button class="buttonSize" onclick="dashWrite()">dash (-)</button>
+      <button class="buttonSize" onclick="delWrite()">backspace</button>
+    </div>
+
+    <!-- Direct Text imput -->
+    <div class="containerflex">
+      <input placeholder="%-$%$%-.--$%$%.--.$%$%.$" type="text" id="inputText" value="" onkeyup="updateText()" />
+    </div>
+    <div class="containerflex">
+      <p id="input"></p>
+    </div>
+    
+
+    <!-- Translater -->
+    
+    <div class = "containerflex">
+      <button class = "buttonSize" onclick="Submit()">Translate</button>
+    </div>
+    <div class = "containerL">
+    <p class = "infoContainer">~~Translated Output~~</p>
+    </div>
+    <div class = "containerL">
+    <p id="output">.</p>
+    </div>
+    
+
+<a>
+         <img alt="Morsecode" src="http://www.mdarc.org/_/rsrc/1519670493939/resources/operating-aids/morse-code/Morse%20Code06.jpg?height=279&width=400">
+      </a>
+  </body>
+</html>

@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm bg-dark sticky-top">
-      <div>
+    <nav class="navbar navbar-expand-sm bg-dark">
+      <div class = "vspacer">
         <button
           type="button"
           class="topbutton"
@@ -23,7 +23,7 @@
           Home
         </button>
       </div>
-      <div>
+      <div class = "vspacer">
         <button
           type="button"
           class="topbutton"
@@ -32,7 +32,25 @@
           Biography
         </button>
       </div>
-      <div>
+      <div class = "vspacer">
+        <button
+          type="button"
+          class="topbutton"
+          onclick="window.location.href = '/Vidcode';"
+        >
+          Vidcode
+        </button>
+      </div>
+      <div class = "vspacer">
+        <button
+          type="button"
+          class="topbutton"
+          onclick="window.location.href = '/Alt';"
+        >
+          Other Projects
+        </button>
+      </div>
+      <div class = "vspacer">
         <button
           type="button"
           class="topbutton"
@@ -43,14 +61,14 @@
       </div>
     </nav>
 
-    <div class="container">
+
       <div class="jumbotron text-center">
         <h1>A Biography</h1>
         <p>About Noah Condotta by Noah Condotta</p>
       </div>
-    </div>
 
-    <div class="container">
+
+
       <div class="row">
         <div class="col-sm-5">
           <h3 class="text-info">Family/Interests</h3>
@@ -124,7 +142,7 @@
       </div>
 
       <div class = "float-right">
-        <h2 class = "">My school</h2>
+        <h2>My School</h2>
         <img
           src="https://dynamicmedia.zuza.com/zz/m/original_/2/e/2eeeda1e-c4fd-40c9-87e6-7afd4323ac7a/COL%20jeanvanier%20jl11%20ia_Super_Portrait.jpg"
           width="304"
@@ -132,8 +150,8 @@
         />
         </div>
           
-        <div>
-        <h2>my interests</h2>
+        <div class = "float-left">
+        <h2>My Interests</h2>
         <img
           src="https://previews.123rf.com/images/piotrkt/piotrkt1712/piotrkt171220410/92921391-real-java-script-code-developing-screen-programing-workflow-abstract-algorithm-concept-closeup-of-ja.jpg"
           width="304"
@@ -142,6 +160,6 @@
       </div>
 
       <script src="js/script.js"></script>
-    </div>
+
   </body>
 </html>
